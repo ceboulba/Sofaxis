@@ -5,6 +5,8 @@ const canvas = document.getElementById('renderCanvas')
 const imgBox = document.getElementById('img-box')
 const imgView = document.getElementById('img-view')
 const viewType = document.querySelector('.view-type')
+const imageName = document.querySelector('.imageName')
+console.log(imageName.innerHTML)
 
 const imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1574761363/relyens-olivet/relyens-olivet-00.jpg',
@@ -13,6 +15,14 @@ const imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1574749002/relyens-olivet/relyens-olivet-03.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1574763861/relyens-olivet/relyens-olivet-04.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1574750599/relyens-olivet/relyens-olivet-05.jpg',
+]
+const imgName= [
+  'Vue axo 01',
+  'Vue axo 02',
+  'Vue 01',
+  'Vue 02',
+  'Vue 03',
+  'Vue 04',
 ]
 
 let num = 0
@@ -92,6 +102,7 @@ const prev = () => {
 }
 
 engine.runRenderLoop(function () {
+    imageName.innerHTML = imgName[num]
   scene.render()
 })
 
