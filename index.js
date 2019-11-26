@@ -7,12 +7,12 @@ const imgView = document.getElementById('img-view')
 const viewType = document.querySelector('.view-type')
 
 const imgs = [
-  'https://res.cloudinary.com/archipicture/image/upload/v1563284170/clot-des-orangers/clots-des-orangets-00.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1562147842/clot-des-orangers/clots-des-orangets-01.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1574721421/relyens-olivet/relyens-olivet-02.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1574720525/relyens-olivet/relyens-olivet-03.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1574720526/relyens-olivet/relyens-olivet-04.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1574720526/relyens-olivet/relyens-olivet-05.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1574761363/relyens-olivet/relyens-olivet-00.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1574761687/relyens-olivet/relyens-olivet-01.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1574747783/relyens-olivet/relyens-olivet-02.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1574749002/relyens-olivet/relyens-olivet-03.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1574763861/relyens-olivet/relyens-olivet-04.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1574750599/relyens-olivet/relyens-olivet-05.jpg',
 ]
 
 let num = 0
